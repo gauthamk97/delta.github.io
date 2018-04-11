@@ -9,6 +9,13 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Delta">
+
+	<!-- OG Tags -->
+	<meta property="og:url" content="https://delta.nitt.edu" />
+	<meta property="og:title" content="Delta Force" />
+	<meta property="og:description" content="The official programming club of NIT Trichy" />
+	<meta property="og:image" content="https://delta.nitt.edu/images/deltaHeader.png" />
+
 	<!-- Latest compiled and minified CSS - Bootstrap -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<!-- Google Fonts -->
@@ -18,6 +25,8 @@
 	<!-- Our Stylesheets -->
 	<link href="css/base.css" rel="stylesheet">
 	<link href="css/main.css" rel="stylesheet">
+	<!-- Favicon -->
+	<link rel="icon" type="image/png" href="images/favicon.ico"/>
 </head>
 <body>
 
@@ -64,21 +73,17 @@
 		</div>
 	</section>
 	
-	<section id="whoWeAre" class="outer-container">
+	<section id="whoWeAre" class="outer-container hcenter">
 		<div class="row">
 			<!-- This hack is Deep Bhattacharyya's idea. I know git blame says Gautham, but I'm innocent. -->
 			<div class="col-md-1"></div>
 			<div class="col-md-4 hcenter vcenter">
-				<img src="images/talk2Image.jpg" width="100%">
+				<img id="whoWeAreImage" src="images/whoWeAre.jpg" width="100%">
 			</div>
 			<div class="col-md-6 vcenter hcenter">
 				<h1 class="subtopic">Who We Are</h1>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget rutrum elit. 
-					Donec viverra, dolor in vulputate eleifend, metus velit lacinia mi, ac molestie mauris 
-					orci non augue. Donec vel purus consectetur justo ultrices varius et sit amet arcu. 
-					Donec vitae pellentesque felis. Curabitur viverra congue consequat. Proin bibendum, tortor 
-					id pretium volutpat,
+					Coders. Problem solvers. Computer geeks. Developers. Technical architects. We are a close knit group of computer science enthusiasts that enjoy coding and hope to make a difference with our software.
 				</p>
 				<a href="members.html"><button class="btn btn-default light-button">Check us out!</button></a>
 			</div>
@@ -86,22 +91,24 @@
 		</div>
 	</section>
 
-	<section id="whatWeDo" class="outer-container">
+	<section id="whatWeDo" class="outer-container hcenter">
 		<div class="row">
 			<!-- This hack is Deep Bhattacharyya's idea. I know git blame says Gautham, but I'm innocent. -->
 			<div class="col-md-1"></div>
 			<div class="col-md-6 vcenter hcenter">
 				<h1 class="subtopic">What We Do</h1>
-				<p>Delta Force is the official programming club of NIT Trichy. We are responsible for the development and 
-					maintenance of our institute's official website as well as handling all web-related activities for the 
-					institute's cultural festival - <a href="https://www.festember.com">Festember</a> and technical festival
-						- <a href="https://www.pragyan.org">Pragyan</a>. As a club, we work together and learn from each other, 
-					all the time exploring new projects and ideas.
+				<p>
+					As the official Web Team and programming club of NIT Trichy, we develop and maintain the institute's 
+					official website and handle web related activities of the institute's festivals including the cultural 
+					fest, <a href="https://festember.com/">Festember</a> and the technical fest, <a href="https://www.pragyan.org/">
+					Pragyan</a>. Our members are constantly working with cutting edge technology and software on their exciting 
+					personal projects. We love Hackathons and spend a lot of our time working on new ideas. The club also 
+					conducts events and workshops on an annual basis.
 				</p>
-				<a href=""><button type="button" class="btn btn-default light-button">Projects we've worked on</button></a>
+				<a href="projects.html"><button type="button" class="btn btn-default light-button">Projects we've worked on</button></a>
 			</div>
 			<div class="col-md-4 hcenter vcenter">
-				<img src="images/talk2Image.jpg" width="100%">
+				<img id="whatWeDoImage" src="images/whatWeDo.jpg" width="100%">
 			</div>
 			<div class="col-md-1"></div>
 		</div>
@@ -111,26 +118,19 @@
 		<h1 class="subtopic">Events</h1>
 		<div class="event hcenter">
 			<h1 class="subtopic">HackerTalks</h1>
-			<img src="images/deepHT.png" width="50%">
+			<img class="event-image" src="images/deepHT.jpg" width="50%">
 			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget rutrum elit. 
-				Donec viverra, dolor in vulputate eleifend, metus velit lacinia mi, ac molestie mauris 
-				orci non augue. Donec vel purus consectetur justo ultrices varius et sit amet arcu. 
-				Donec vitae pellentesque felis. Curabitur viverra congue consequat. Proin bibendum, tortor 
-				id pretium volutpat,
+				HackerTalks is a two day series where we present various topics spanning the breadth of the computing and programming fields. 
+				The first HackerTalks event was conducted on March 27-28 2018, giving its audience a glimpse into multiple arenas of computer science and engineering.
 			</p>
 			<a href="hackertalks.html"><button class="btn btn-default dark-button">Learn More</button></a>
 		</div>
 		<hr class="separator" />
 		<div class="event hcenter">
 			<h1 class="subtopic">Workshops</h1>
-			<img src="images/venkatHT.png" width="50%">
+			<img class="event-image" src="images/venkatHT.jpg" width="50%">
 			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget rutrum elit. 
-				Donec viverra, dolor in vulputate eleifend, metus velit lacinia mi, ac molestie mauris 
-				orci non augue. Donec vel purus consectetur justo ultrices varius et sit amet arcu. 
-				Donec vitae pellentesque felis. Curabitur viverra congue consequat. Proin bibendum, tortor 
-				id pretium volutpat,
+				Delta Force organises annual workshops for freshers at NIT Trichy. In previous years, we conducted interactive educational sessions that taught the participants the basics of linux and python languages and more recently, organised one that dwelled into popular algorithms and their implementation.
 			</p>
 		</div>
 	</section>
@@ -143,8 +143,6 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<!-- Latest compiled and minified JavaScript - Bootstrap -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-	<!-- Babel Script from CDN (for ES6 -> ES5 conversion) -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/6.1.19/browser.min.js"></script>
 	<!-- Main Script -->
 	<script src="js/main.js"></script>
 </body>
