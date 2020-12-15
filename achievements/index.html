@@ -31,7 +31,7 @@
 	<link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
 	<!-- Our Stylesheets -->
 	<link href="/css/base.css" rel="stylesheet">
-	<link href="/css/members.css" rel="stylesheet">
+	<link href="/css/achievements.css" rel="stylesheet">
 	<!-- Favicon -->
 	<link rel="icon" type="image/png" href="/images/favicon.ico"/>
 </head>
@@ -56,9 +56,9 @@
 					<!-- Navbar left side links -->
 					<ul class="nav navbar-nav">
 						<li><a href="/">Home</a></li>
-						<li class="active"><a href="">Members<span class="sr-only">(current)</span></a></li>
+						<li><a href="/members/">Members</a></li>
 						<li><a href="/projects/">Projects</a></li>
-						<li><a href="/achievements/">Achievements</a></li>
+						<li class="active"><a href="/achievements/">Achievements<span class="sr-only">(current)</span></a></li>
 					</ul>
 					<!-- Navbar right side links -->
 					<ul class="nav navbar-nav navbar-right">
@@ -69,32 +69,25 @@
 		</nav>
 
 		<section id="aboutTheTeam" class="outer-container first-container">
-			<h1 class="subtopic">The Team</h1>
+			<h1 class="subtopic">Believe Become</h1>
 			<p>
-				At Delta, we truly value what each member brings to the table. Among us are mobile-app developers, web developers, system administrators, software enthusiasts, algorithmic coders and open source software contributors.
+                We aren't just coding and getting nowhere with it.
 			</p>
 		</section>
 
-		<section id="teamPictures" class="hcenter">
-			<!--allMembers Button-->
-			<div id="allMembersButtons" class="btn-group" role="group" aria-label="...">
-				<button type="button" class="btn btn-default btn-lg dark-button active-batch large-mobile" onclick="clickAllPresentMembers()">Present Members</button>
-				<button type="button" class="btn btn-default btn-lg dark-button small-mobile" onclick="clickAllAlumni()">Alumni</button>
-			</div>
-			<br>
-			<!--present members batchButton-->	
-			<div id="batchButtons" class="btn-group" role="group" aria-label="...">
-				<button type="button" class="btn btn-default btn-lg dark-button active-batch small-mobile" onclick="clickAllPresentMembers()">All</button>
-				<button type="button" class="btn btn-default btn-lg dark-button large-mobile" onclick="clickFourthYears()">Batch of 2019</button>
-				<button type="button" class="btn btn-default btn-lg dark-button large-mobile" onclick="clickThirdYears()">Batch of 2020</button>
-				<button type="button" class="btn btn-default btn-lg dark-button large-mobile" onclick="clickSecondYears()">Batch of 2021</button>
-			</div>
-			<!--Alumni batchButton-->
-			<div id="alumniButtons" class="btn-group" role="group" aria-label="...">
-				<button type="button" class="btn btn-default btn-lg dark-button active-batch small-mobile" onclick="clickAllAlumni()">All</button>
-				<button type="button" class="btn btn-default btn-lg dark-button large-mobile" onclick="click2018Alumni()">Alumni of 2018</button>
-			</div>	
-			<div id="allMembersContainer">
+		<section id="Achievements" class="hcenter">
+			<!--ALL Achievements Button-->
+			<div id="achievementButtons" class="btn-group" role="group" aria-label="...">
+				<button type="button" class="btn btn-default btn-lg dark-button active-batch large-mobile" onclick="clickAllHackathons()">Hackathons</button>
+                <button type="button" class="btn btn-default btn-lg dark-button large-mobile" onclick="clickOurAlumni()">Our Alumni</button>
+            </div>
+            <br>
+            <!--Alumni Button-->
+            <div id="alumniButtons" class="btn-group" role="group" aria-label="...">
+                <button type="button" class="btn btn-default btn-lg dark-button active-batch large-mobile" onclick="clickAllPlacements()">Placements</button>
+                <button type="button" class="btn btn-default btn-lg dark-button large-mobile" onclick="clickAllMasters()">Masters</button>
+            </div>	
+			<div id="allAchievementsContainer">
 
 			</div>
 		</section>
@@ -105,6 +98,6 @@
 	</footer>
 
 	<!-- Main Script -->
-	<script src="/js/members.js"></script>
+	<script src="/js/achievements.js"></script>
 </body>
 </html>
